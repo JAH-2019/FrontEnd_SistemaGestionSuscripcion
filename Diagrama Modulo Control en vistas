@@ -1,9 +1,75 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.5">
-  <diagram name="Página-1" id="izwFvpP0gfiX4QYXoeb2">
-    <mxGraphModel>
+  <diagram name="Acceso a Vistas Permitidas" id="izwFvpP0gfiX4QYXoeb2">
+    <mxGraphModel dx="2108" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sap1Gtf9Vi4uWkd_F1qr-1" value="Usuario validado" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sap1Gtf9Vi4uWkd_F1qr-2" value="Consultar permisos/vistas del usuario" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="300" y="180" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sap1Gtf9Vi4uWkd_F1qr-3" value="Mostrar solo vistas permitidas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="300" y="260" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sap1Gtf9Vi4uWkd_F1qr-4" value="Usuario selecciona vista" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="340" y="340" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sap1Gtf9Vi4uWkd_F1qr-5" value="¿Permiso para la vista?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="340" y="420" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sap1Gtf9Vi4uWkd_F1qr-6" value="Acceder a la vista" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="200" y="520" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sap1Gtf9Vi4uWkd_F1qr-7" value="Acceso denegado" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="440" y="520" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sap1Gtf9Vi4uWkd_F1qr-8" value="¿Cambiar vista o salir?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="340" y="600" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sap1Gtf9Vi4uWkd_F1qr-9" value="Volver al menú de vistas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="760" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sap1Gtf9Vi4uWkd_F1qr-10" value="Salir / Logout" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="440" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sap1Gtf9Vi4uWkd_F1qr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sap1Gtf9Vi4uWkd_F1qr-1" target="sap1Gtf9Vi4uWkd_F1qr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sap1Gtf9Vi4uWkd_F1qr-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sap1Gtf9Vi4uWkd_F1qr-2" target="sap1Gtf9Vi4uWkd_F1qr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sap1Gtf9Vi4uWkd_F1qr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sap1Gtf9Vi4uWkd_F1qr-3" target="sap1Gtf9Vi4uWkd_F1qr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sap1Gtf9Vi4uWkd_F1qr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sap1Gtf9Vi4uWkd_F1qr-4" target="sap1Gtf9Vi4uWkd_F1qr-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sap1Gtf9Vi4uWkd_F1qr-15" value="Sí" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sap1Gtf9Vi4uWkd_F1qr-5" target="sap1Gtf9Vi4uWkd_F1qr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sap1Gtf9Vi4uWkd_F1qr-16" value="No" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sap1Gtf9Vi4uWkd_F1qr-5" target="sap1Gtf9Vi4uWkd_F1qr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sap1Gtf9Vi4uWkd_F1qr-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sap1Gtf9Vi4uWkd_F1qr-6" target="sap1Gtf9Vi4uWkd_F1qr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sap1Gtf9Vi4uWkd_F1qr-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sap1Gtf9Vi4uWkd_F1qr-7" target="sap1Gtf9Vi4uWkd_F1qr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sap1Gtf9Vi4uWkd_F1qr-19" value="Cambiar vista" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sap1Gtf9Vi4uWkd_F1qr-8" target="sap1Gtf9Vi4uWkd_F1qr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sap1Gtf9Vi4uWkd_F1qr-20" value="Salir" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sap1Gtf9Vi4uWkd_F1qr-8" target="sap1Gtf9Vi4uWkd_F1qr-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sap1Gtf9Vi4uWkd_F1qr-21" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sap1Gtf9Vi4uWkd_F1qr-9" target="sap1Gtf9Vi4uWkd_F1qr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sap1Gtf9Vi4uWkd_F1qr-22" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Diagrama de flujo Contro de vistas por usuarios Validados&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="30" width="650" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
